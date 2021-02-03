@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    height: 100vh;
+}
+
+.position_elem {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70%;
+    min-width: 70%;
+    max-width: 60%;
+    background-color: blanchedalmond;
+}
+
+.up_add {
+    display: flex;
+    /* justify-content: ; */
+}
+
+.up_add,
+.middle_add {
+    display: flex;
+}
+
+.middle_add {
+    justify-content: space-between;
+}
+
+.right_selector {
+    margin-bottom: 35px;
+}
+
+.up_add,
+.middle_add {
+    margin-bottom: 25px;
+}
+
+.left_selector {
+    margin-right: 25px;
+}
+
+.label_opt:nth-last-child(1n) {
+    margin-right: 25px;
+}
+
+.block_info_act {
+    width: 450px;
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: scroll;
+    background-color: white;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+.elem_entry {
+    padding: 7px;
+    padding-left: 10px;
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+.add_data_form {
+    width: 450px;
+    margin: 35px auto;
+}
+
+.delete_data_form {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.down_add {
+    display: flex;
+    justify-content: flex-end;
+}
